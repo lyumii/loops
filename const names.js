@@ -3,6 +3,5 @@ const names = ["Tom", "Eric", "Jessica", "Scott", "Anna", "Carl", "Elisabeth", "
 let hello = "";
 
 for (let i = 0; i < names.length; i++) {
-      hello += "Good morning " + names[i] + "\n";
-      console.log(hello);
+      console.log("Good Morning " + names[i]);
       }
